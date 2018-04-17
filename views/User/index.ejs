@@ -1,0 +1,16 @@
+<div class="pagetitle">
+</div>
+<table width="99%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#c0de98">
+    <tr>
+        <td class="title">帐号</td>
+        <td class="title">密码</td>
+    </tr>
+    <tr>
+        <td class="data"><%-item.resource_id%></td>
+        <td class="data"><%-item.resource_tag%></td>
+        <td class="data"><%-item.resource_version%></td>
+        <td class="data"><%-item.resource_url%></td>
+        <td class="data"><%-item.create_date//.format('yyyy-MM-dd hh:mm:ss')%></td>
+        <td class="data"><a href="/resource/chk?id=<%-item.resource_id%>">检查</a></td>
+    </tr>
+</table>

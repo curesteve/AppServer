@@ -1,0 +1,77 @@
+[
+    {
+        "title": "DT",
+        "url": "/",
+        "get": [
+            {
+                "route": "/",
+                "method": "index"
+            },
+            {
+                "route": "/left",
+                "method": "left"
+            }
+        ]
+    },
+  {
+    "title": "用户登录",
+    "url": "/membership/login",
+    "get": [
+      {
+        "route": "/login",
+        "method": "index"
+      },
+      {
+        "route": "/logout",
+        "method": "logout"
+      },
+      {
+        "route": "/test12",
+        "method": "test1010"
+      }
+    ],
+    "post": [
+      {
+        "route": "/login",
+        "method": "login"
+      },
+      {
+        "route": "/test12",
+        "method": "test1010"
+      }
+    ]
+  }
+,
+  {
+    "title": "用户管理",
+    "url": "/User/UserManager",
+    "get": [
+      {
+        "route": "/WXUser/add",
+        "method": "add"
+      },
+      {
+        "route": "/WXUser/del",
+        "method": "del"
+      },
+      {
+        "route": "/WXUser/zylogin",
+        "method": "login"
+      }
+    ],
+    "post": [
+      {
+        "route": "/WXUser/add",
+        "method": "add"
+      },
+      {
+        "route": "/WXUser/del",
+        "method": "del"
+      },
+      {
+        "route": "/WXUser/zylogin",
+        "method": "login"
+      }
+    ]
+  }
+]
